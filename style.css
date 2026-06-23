@@ -1,0 +1,99 @@
+/* Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Page Background */
+body {
+    font-family: Arial, sans-serif;
+    background: linear-gradient(90deg, #FC466B 0%, #3F5EFB 100%);
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* Main Container */
+.container {
+    width: 400px;
+    background: transparent;
+    padding: 30px;
+    border-radius: 15px;
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.2);
+    text-align: center;
+}
+
+/* Heading */
+.container h1 {
+    color: Black;
+    font-family: cursive;
+    margin-bottom: 25px;
+}
+
+/* Form Section */
+.weather-app {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+/* Labels */
+label {
+    display: block;
+    text-align: left;
+    margin-bottom: 5px;
+    font-weight: bold;
+    color: black;
+    font-family: cursive;
+    font-size: px;
+}
+
+/* Input Fields */
+input {
+    width: 100%;
+    padding: 10px;
+    border: 2px solid #5d5b5b;
+    border-radius: 8px;
+    font-size: 16px;
+    outline: none;
+    transition: 0.3s;
+    background-color: transparent;
+    font-family: cursive;
+    
+}
+input::placeholder {
+    color: rgb(71, 69, 69);
+    font-family: cursive;
+}
+input:focus {
+    border-color: #4facfe;
+}
+
+/* Button */
+button {
+    width: 100%;
+    padding: 12px;
+    background: #4facfe;
+    color: white;
+    border: none;
+    border-radius: 8px;
+    font-size: 16px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: 0.3s;
+    font-family: cursive;
+}
+
+button:hover {
+    background: #2f8dfd;
+    transform: translateY(-2px);
+}
+
+/* Temperature Field */
+#temp {
+    background-color: transparent;
+    font-weight: bold;
+    color: #08025b;
+}
