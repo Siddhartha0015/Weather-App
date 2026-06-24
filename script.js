@@ -20,7 +20,7 @@ async function getWeather() {
         latitude = 22.5731;
         longitude = 88.3616;
     } else {
-        alert("City not found");
+        alert("City not found : Please enter a valid city name (Lucknow, Bengaluru, New Delhi, Mumbai, Kolkata).");
         return;
     }
 
